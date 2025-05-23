@@ -3,7 +3,7 @@
 
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyDlkwjQ1-jEF-oFUMxxYj6OMU8PJFkni0Y" });
+const ai = new GoogleGenAI({ apiKey: " api key " });
 
 async function main(Prompt) {
   const response = await ai.models.generateContent({
